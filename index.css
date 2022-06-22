@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: whitesmoke;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* ---------------ASIDE------------------------------ */
 
@@ -84,6 +92,111 @@ aside span {
 }
 
 
+/* ---------MAIN--------------------------------------- */
+
+main {
+    width: 92%;
+    margin-left: 70px;
+    padding: 10px;
+}
+
+main header {
+    background-color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 50px;
+    padding: 12px;
+    margin: 5px;
+    padding-left: 20px;
+}
+
+main article {
+    padding: 12px;
+    margin: 5px;
+    background-color: #fff;
+}
+
+main article nav {
+    display: flex;
+}
+
+main article nav ul {
+    display: flex;
+}
+
+main article nav ul li {
+    margin: 8px;
+    list-style: none;
+    padding: 6px;
+    background-color: rgb(86, 197, 242);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+
+main article nav ul li i {
+    padding: 5px;
+}
+
+main article .info h3 i {
+    margin-right: 6px;
+}
+
+main article nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+}
+
+main article img {
+    height: 400px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+main article #image {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+
+main article .info {
+    margin: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+main article .info p {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 15px;
+}
+
+main article .info h3 {
+    font-family: 'Staatliches', cursive;
+    font-size: 28px;
+}
+
+
+/* ---------------FOOTER--------------------------------- */
+
+footer {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /* ----------Hover------------------------------------ */
 
 aside:hover {
@@ -97,4 +210,8 @@ aside nav ul li:hover {
     border-left: 5px solid white;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+main article #image img:hover {
+    transform: scale(1.1);
 }
